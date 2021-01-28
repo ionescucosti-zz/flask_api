@@ -1,7 +1,14 @@
 # Set up project
-cd ../flask_api
+Clone repository: 
+git clone https://github.com/ionescucosti/flask_api.git
 
-Run in terminal: 
-python -m pip install -r requirements.txt
-python create_db.py
-python run.py
+Go to project root in terminal: cd ../flask_api
+
+\
+Install requirements: pip install -r requirements.txt
+
+\
+Create database: python create_db.py
+
+\
+Start application: python run.py
